@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.PizzaHutTestNGTest">
+        <methods>
+          <include name="validateDealsUrl"/>
+          <include name="addItemUnder200ToCart"/>
+          <include name="onlinePaymentRadioButtonSelected"/>
+          <include name="tearDown"/>
+          <include name="navigateToDrinks"/>
+          <include name="addTwoDrinks"/>
+          <include name="checkoutButtonPriceNotShown"/>
+          <include name="productAddedUnderBasket"/>
+          <include name="onStart"/>
+          <include name="clickVoucher"/>
+          <include name="onFinish"/>
+          <include name="clickAndNavigateToCheckout"/>
+          <include name="setup"/>
+          <include name="enterDetails"/>
+          <include name="navigateToBasketPage"/>
+          <include name="clickGiftCard"/>
+          <include name="validateVoucherError"/>
+          <include name="typeVoucherCode"/>
+          <include name="closeVoucherPopup"/>
+          <include name="testUserLocationSetting"/>
+        </methods>
+      </class> <!-- tests.PizzaHutTestNGTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

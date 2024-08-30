@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PizzaHutTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="pizzahut01(failed)">
+    <parameter name="errorText" value="Sorry"/>
+    <parameter name="expectedProductName" value="Masala Keema Garlic Bread"/>
+    <parameter name="titleText" value="Your Basket"/>
+    <parameter name="name" value="John Doe"/>
+    <parameter name="mobile" value="9985000000"/>
+    <parameter name="location" value="Maddilapalem"/>
+    <parameter name="email" value="johndoe@gmail.com"/>
+    <parameter name="voucherCode" value="12345"/>
+    <classes>
+      <class name="tests.PizzaHutTestNGTest1">
+        <methods>
+          <include name="addTwoDrinks"/>
+          <include name="navigateToDrinks"/>
+          <include name="clickGiftCard"/>
+          <include name="tearDown"/>
+          <include name="productAddedUnderBasket" invocation-numbers="0"/>
+          <include name="clickVoucher"/>
+          <include name="onStart"/>
+          <include name="navigateToBasketPage" invocation-numbers="0"/>
+          <include name="onFinish"/>
+          <include name="typeVoucherCode" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="validateVoucherError" invocation-numbers="0"/>
+          <include name="addItemUnder200ToCart"/>
+          <include name="closeVoucherPopup"/>
+          <include name="enterDetails" invocation-numbers="0"/>
+          <include name="clickAndNavigateToCheckout"/>
+        </methods>
+      </class> <!-- tests.PizzaHutTestNGTest1 -->
+    </classes>
+  </test> <!-- pizzahut01(failed) -->
+</suite> <!-- Failed suite [PizzaHutTestSuite] -->
